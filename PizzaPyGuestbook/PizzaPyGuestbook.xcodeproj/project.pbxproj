@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBFDAB801A270E6E002A80A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFDAB7F1A270E6E002A80A7 /* main.m */; };
+		DBFDAB831A270E6E002A80A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFDAB821A270E6E002A80A7 /* AppDelegate.m */; };
+		DBFDAB8C1A270E6E002A80A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBFDAB8A1A270E6E002A80A7 /* Main.storyboard */; };
+		DBFDAB8E1A270E6E002A80A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBFDAB8D1A270E6E002A80A7 /* Images.xcassets */; };
+		DBFDAB911A270E6E002A80A7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBFDAB8F1A270E6E002A80A7 /* LaunchScreen.xib */; };
+		DBFDAB9D1A270E6F002A80A7 /* PizzaPyGuestbookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFDAB9C1A270E6F002A80A7 /* PizzaPyGuestbookTests.m */; };
+		DBFDABA91A2714C2002A80A7 /* SubmitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFDABA81A2714C2002A80A7 /* SubmitViewController.m */; };
+		DBFDABAD1A271FD2002A80A7 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFDABAC1A271FD2002A80A7 /* ListViewController.m */; };
+		DBFDABB01A27279C002A80A7 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFDABAF1A27279C002A80A7 /* MessageViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBFDAB971A270E6F002A80A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBFDAB721A270E6E002A80A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBFDAB791A270E6E002A80A7;
+			remoteInfo = PizzaPyGuestbook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBFDAB7A1A270E6E002A80A7 /* PizzaPyGuestbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaPyGuestbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBFDAB7E1A270E6E002A80A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBFDAB7F1A270E6E002A80A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBFDAB811A270E6E002A80A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DBFDAB821A270E6E002A80A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DBFDAB8B1A270E6E002A80A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBFDAB8D1A270E6E002A80A7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DBFDAB901A270E6E002A80A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DBFDAB961A270E6F002A80A7 /* PizzaPyGuestbookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzaPyGuestbookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBFDAB9B1A270E6F002A80A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBFDAB9C1A270E6F002A80A7 /* PizzaPyGuestbookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PizzaPyGuestbookTests.m; sourceTree = "<group>"; };
+		DBFDABA71A2714C2002A80A7 /* SubmitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubmitViewController.h; sourceTree = "<group>"; };
+		DBFDABA81A2714C2002A80A7 /* SubmitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubmitViewController.m; sourceTree = "<group>"; };
+		DBFDABAB1A271FD2002A80A7 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		DBFDABAC1A271FD2002A80A7 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		DBFDABAE1A27279C002A80A7 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		DBFDABAF1A27279C002A80A7 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBFDAB771A270E6E002A80A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBFDAB931A270E6F002A80A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBFDAB711A270E6E002A80A7 = {
+			isa = PBXGroup;
+			children = (
+				DBFDAB7C1A270E6E002A80A7 /* PizzaPyGuestbook */,
+				DBFDAB991A270E6F002A80A7 /* PizzaPyGuestbookTests */,
+				DBFDAB7B1A270E6E002A80A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBFDAB7B1A270E6E002A80A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBFDAB7A1A270E6E002A80A7 /* PizzaPyGuestbook.app */,
+				DBFDAB961A270E6F002A80A7 /* PizzaPyGuestbookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBFDAB7C1A270E6E002A80A7 /* PizzaPyGuestbook */ = {
+			isa = PBXGroup;
+			children = (
+				DBFDABAA1A271FBE002A80A7 /* List */,
+				DBFDABA61A2714A9002A80A7 /* Submit */,
+				DBFDAB811A270E6E002A80A7 /* AppDelegate.h */,
+				DBFDAB821A270E6E002A80A7 /* AppDelegate.m */,
+				DBFDAB8A1A270E6E002A80A7 /* Main.storyboard */,
+				DBFDAB8D1A270E6E002A80A7 /* Images.xcassets */,
+				DBFDAB8F1A270E6E002A80A7 /* LaunchScreen.xib */,
+				DBFDAB7D1A270E6E002A80A7 /* Supporting Files */,
+			);
+			path = PizzaPyGuestbook;
+			sourceTree = "<group>";
+		};
+		DBFDAB7D1A270E6E002A80A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBFDAB7E1A270E6E002A80A7 /* Info.plist */,
+				DBFDAB7F1A270E6E002A80A7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBFDAB991A270E6F002A80A7 /* PizzaPyGuestbookTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBFDAB9C1A270E6F002A80A7 /* PizzaPyGuestbookTests.m */,
+				DBFDAB9A1A270E6F002A80A7 /* Supporting Files */,
+			);
+			path = PizzaPyGuestbookTests;
+			sourceTree = "<group>";
+		};
+		DBFDAB9A1A270E6F002A80A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBFDAB9B1A270E6F002A80A7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBFDABA61A2714A9002A80A7 /* Submit */ = {
+			isa = PBXGroup;
+			children = (
+				DBFDABA71A2714C2002A80A7 /* SubmitViewController.h */,
+				DBFDABA81A2714C2002A80A7 /* SubmitViewController.m */,
+			);
+			name = Submit;
+			sourceTree = "<group>";
+		};
+		DBFDABAA1A271FBE002A80A7 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				DBFDABAB1A271FD2002A80A7 /* ListViewController.h */,
+				DBFDABAC1A271FD2002A80A7 /* ListViewController.m */,
+				DBFDABAE1A27279C002A80A7 /* MessageViewController.h */,
+				DBFDABAF1A27279C002A80A7 /* MessageViewController.m */,
+			);
+			name = List;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBFDAB791A270E6E002A80A7 /* PizzaPyGuestbook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBFDABA01A270E6F002A80A7 /* Build configuration list for PBXNativeTarget "PizzaPyGuestbook" */;
+			buildPhases = (
+				DBFDAB761A270E6E002A80A7 /* Sources */,
+				DBFDAB771A270E6E002A80A7 /* Frameworks */,
+				DBFDAB781A270E6E002A80A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PizzaPyGuestbook;
+			productName = PizzaPyGuestbook;
+			productReference = DBFDAB7A1A270E6E002A80A7 /* PizzaPyGuestbook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBFDAB951A270E6F002A80A7 /* PizzaPyGuestbookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBFDABA31A270E6F002A80A7 /* Build configuration list for PBXNativeTarget "PizzaPyGuestbookTests" */;
+			buildPhases = (
+				DBFDAB921A270E6F002A80A7 /* Sources */,
+				DBFDAB931A270E6F002A80A7 /* Frameworks */,
+				DBFDAB941A270E6F002A80A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBFDAB981A270E6F002A80A7 /* PBXTargetDependency */,
+			);
+			name = PizzaPyGuestbookTests;
+			productName = PizzaPyGuestbookTests;
+			productReference = DBFDAB961A270E6F002A80A7 /* PizzaPyGuestbookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBFDAB721A270E6E002A80A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = radj;
+				TargetAttributes = {
+					DBFDAB791A270E6E002A80A7 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					DBFDAB951A270E6F002A80A7 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = DBFDAB791A270E6E002A80A7;
+					};
+				};
+			};
+			buildConfigurationList = DBFDAB751A270E6E002A80A7 /* Build configuration list for PBXProject "PizzaPyGuestbook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBFDAB711A270E6E002A80A7;
+			productRefGroup = DBFDAB7B1A270E6E002A80A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBFDAB791A270E6E002A80A7 /* PizzaPyGuestbook */,
+				DBFDAB951A270E6F002A80A7 /* PizzaPyGuestbookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBFDAB781A270E6E002A80A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBFDAB8C1A270E6E002A80A7 /* Main.storyboard in Resources */,
+				DBFDAB911A270E6E002A80A7 /* LaunchScreen.xib in Resources */,
+				DBFDAB8E1A270E6E002A80A7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBFDAB941A270E6F002A80A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBFDAB761A270E6E002A80A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBFDABA91A2714C2002A80A7 /* SubmitViewController.m in Sources */,
+				DBFDABB01A27279C002A80A7 /* MessageViewController.m in Sources */,
+				DBFDAB831A270E6E002A80A7 /* AppDelegate.m in Sources */,
+				DBFDABAD1A271FD2002A80A7 /* ListViewController.m in Sources */,
+				DBFDAB801A270E6E002A80A7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBFDAB921A270E6F002A80A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBFDAB9D1A270E6F002A80A7 /* PizzaPyGuestbookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBFDAB981A270E6F002A80A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBFDAB791A270E6E002A80A7 /* PizzaPyGuestbook */;
+			targetProxy = DBFDAB971A270E6F002A80A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBFDAB8A1A270E6E002A80A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBFDAB8B1A270E6E002A80A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBFDAB8F1A270E6E002A80A7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBFDAB901A270E6E002A80A7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBFDAB9E1A270E6F002A80A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DBFDAB9F1A270E6F002A80A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBFDABA11A270E6F002A80A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = PizzaPyGuestbook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBFDABA21A270E6F002A80A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = PizzaPyGuestbook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DBFDABA41A270E6F002A80A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PizzaPyGuestbookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PizzaPyGuestbook.app/PizzaPyGuestbook";
+			};
+			name = Debug;
+		};
+		DBFDABA51A270E6F002A80A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PizzaPyGuestbookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PizzaPyGuestbook.app/PizzaPyGuestbook";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBFDAB751A270E6E002A80A7 /* Build configuration list for PBXProject "PizzaPyGuestbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBFDAB9E1A270E6F002A80A7 /* Debug */,
+				DBFDAB9F1A270E6F002A80A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBFDABA01A270E6F002A80A7 /* Build configuration list for PBXNativeTarget "PizzaPyGuestbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBFDABA11A270E6F002A80A7 /* Debug */,
+				DBFDABA21A270E6F002A80A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBFDABA31A270E6F002A80A7 /* Build configuration list for PBXNativeTarget "PizzaPyGuestbookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBFDABA41A270E6F002A80A7 /* Debug */,
+				DBFDABA51A270E6F002A80A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBFDAB721A270E6E002A80A7 /* Project object */;
+}
