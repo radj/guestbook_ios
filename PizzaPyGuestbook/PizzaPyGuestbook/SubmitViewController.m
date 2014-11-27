@@ -66,7 +66,7 @@
         [delegateFreeSession dataTaskWithRequest:request
                                completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
                                    
-                                   NSLog(@"Response = %@ %@\n", response, error);
+                                   //NSLog(@"Response = %@ %@\n", response, error);
                                    
                                    if (error == nil) {
                                        [UIAlertView popup:@"Entry submitted successfully!"];
